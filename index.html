@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- ukoliko želimo slova koja nisu deo abecede (npr. latinica ili ćirilica) -->
+  <meta charset="UTF-8" />
+  <!-- povezujemo stilove iz style.css fajla -->
+  <link rel="stylesheet" href="style.css" />
+  <title>Odbrojavanje Nove Godine</title> <!-- naziv vidljiv u okviru tablice pretraživača -->
+</head>
+
+<body>
+  <h1>Odbrojavanje nove Godine</h1>
+  <div id="year" class="year"></div>
+
+  <div id="countdown" class="countdown">
+    <div class="time">
+      <h2 id="days">00</h2>
+      <small>d</small>
+    </div>
+        <div class="time">
+          <h2 id="hours">00</h2>
+          <small>h</small>
+        </div>
+        <div class="time">
+              <h2 id="minutes">00</h2>
+              <small>m</small>
+        </div>
+        <div class="time">
+          <h2 id="seconds">00</h2>
+          <small>s</small>
+        </div>
+
+  </div>
+
+    <!-- povezujemo funkcionalnost iz script.js fajla -->
+    <script src="script.js"></script>
+</body>
+
+</html>
